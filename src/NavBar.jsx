@@ -1,5 +1,7 @@
 import './App.scss';
+import axios from 'axios';
 const Navbar = () => {
+    
     return ( 
         <div className="navbar">
             <div className="banner">

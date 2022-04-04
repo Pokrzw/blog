@@ -25,5 +25,6 @@ client
             console.log('Baza blog_database została stworzona');
         })
     }
-}).finally(()=>{client.end()})
-
+})
+// .finally(()=>{client.end()})
+// 

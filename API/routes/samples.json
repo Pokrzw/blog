@@ -1,0 +1,47 @@
+[
+{
+    "first_name":"Paulina",
+    "last_name":"Belkot",
+    "is_admin":"TRUE"
+},
+{
+    "first_name":"Lorem",
+    "last_name":"Ipsum",
+    "is_admin":"FALSE"
+},
+{
+    "first_name":"Ktostam",
+    "last_name":"Niewazne",
+    "is_admin":"FALSE"
+},
+{
+    "author_id":2,
+    "title":"Dlaczego kombucha jest pszna",
+    "cover_src" : "https://i.imgur.com/4X1KzZ0_d.webp?maxwidth=520&shape=thumb&fidelity=high",
+    "text":"Kombucha ma niespotykany słodko-kwaśny smak oraz orzeźwiające bąbelki. Mozliwość dodania dowolnych dodatków smakowych czyni ją jedną z najbardziej uniwersalnych oranżad."
+    ,"tags":["kombucha","opinia"],
+    "no_of_reactions": [0,0,0,0],
+    "views":0
+}
+,
+{
+    "author_id":2,
+    "title":"Najlepsze dodatki do kombuchy",
+    "cover_src":"https://image.sciencenorway.no/1438480.jpg?imageId=1438480&panow=0&panoh=0&panox=0&panoy=0&heightw=0&heighth=0&heightx=0&heighty=0&width=1200&height=900"
+    ,"text":"5. Mango, 4.Pomarańcza, 3. Granat, 2. Malina, 1.Ananas."
+    ,"tags":["owoce","opinia"],
+    "no_of_reactions": [0,0,0,0],
+    "views":0
+}
+,
+{
+    "author_id":1,
+    "title":"Zalety zdrowotne picia kombuchy",
+    "cover_src":"https://image.sciencenorway.no/1438480.jpg?imageId=1438480&panow=0&panoh=0&panox=0&panoy=0&heightw=0&heighth=0&heightx=0&heighty=0&width=1200&height=900"
+    ,"text":"Kombucha ma duzo probiotykow, ktore wplywaja nie tylko na polepszone trawienie, ale takze na wzmocnienie ukladu odpornosciowego. Jest coraz wiecej dowodow na potencjalne benefity dla zdrowia mentalnego."
+    ,"tags":["kombucha","zdrowie","owoce"],
+    "no_of_reactions": [0,0,0,0],
+    "views":0
+}
+
+]
