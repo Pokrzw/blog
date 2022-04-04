@@ -1,9 +1,18 @@
 import './App.scss';
-const PostsDisplay = () => {
+import PostTemplate from './PostTemplate';
+
+const PostsDisplay = (props) => {
     return ( 
         <div className="display">
-            <h3>Posty</h3>
+            <h2>Posty</h2>
             
+            {!props.posts && <h3>Loading...</h3>}
+            {props.posts && 
+                props.posts.map(post => {
+                    return <PostTemplate key={post.blog_id} data={post}/>
+                })
+            }
+
         </div>
      );
 }

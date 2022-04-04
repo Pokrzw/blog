@@ -6,9 +6,12 @@ const authorRoutes = require('./routes/authors')
 const schemes = require('./databases.js')
 const bodyParser = require('body-parser')
 const jsonParser = bodyParser.json()
+const cors = require('cors')
 
 
 app.use(jsonParser)
+app.use(cors())
+
 const {Client} = require('pg')
 const client = new Client({
     host: process.env.PGHOST,
