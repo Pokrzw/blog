@@ -15,6 +15,7 @@ const Navbar = () => {
                 <li>Wyswietl z tagami</li>
                 <li>Sortuj</li>
                 <li>Wyswietl wszystkie posty</li>
+                <li>Zaloguj się</li>
             </ul>
             </div>
         </div>
